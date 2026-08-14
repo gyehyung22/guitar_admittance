@@ -1,0 +1,25 @@
+name: guitar-admittance
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fenics-dolfinx
+  - petsc=*=complex*
+  - slepc=*=complex*
+  - petsc4py
+  - slepc4py
+  - mpi4py
+  - mpich
+  - mumps-mpi
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - opencv
+  - meshio
+  - gmsh
+  - cadquery
+  - shapely
+  - pip
+  - pip:
+      - torch>=2.2

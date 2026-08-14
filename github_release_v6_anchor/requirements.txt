@@ -1,0 +1,16 @@
+# Python packages outside the Linux FEniCSx/PETSc stack.
+# Install dolfinx, UFL, petsc4py, slepc4py, mpi4py, and a PETSc/MUMPS build
+# through conda-forge first; see docs/REPRODUCIBILITY.md.
+numpy>=1.26
+scipy>=1.13
+pandas>=2.0
+matplotlib>=3.8
+meshio>=5.3
+gmsh>=4.12
+cadquery>=2.4
+shapely>=2.0
+opencv-python>=4.9
+torch>=2.2
+
+# Optional: wandb>=0.17 for nn_train.py --wandb.
+# Optional: multiphenicsx for the alternative FSI assembly path.

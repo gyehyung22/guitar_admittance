@@ -1,0 +1,13 @@
+{
+  "schema_version": "mixed-plan-source-compatibility-v1",
+  "transitions": [
+    {
+      "file": "dataset_gen_mixed.py",
+      "from_sha256": "4bc3db9355c248f99a7c9bf872a6fcfdfdfdd032a78620db7e786ac157e3087b",
+      "to_sha256": "e0810f154a724eaa74bbbb1ed6013bb6abe8a492a42f9c1c3f9fe28cfea0751b",
+      "reason": "add runtime-only --run-policy (mixed-run-policy-v1): scheduling order and per-shape material caps for pending cases. No change to plan, geometry, solver, QC or any stored artifact.",
+      "audited": "2026-07-28",
+      "dataset": "results/mixed_v6_full"
+    }
+  ]
+}
